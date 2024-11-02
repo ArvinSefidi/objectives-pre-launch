@@ -3,6 +3,7 @@
  * 
  * This component renders a modal with a form to collect the user's name and email.
  * Upon submission, the contact information is stored in Firebase Firestore.
+ * 
  */
 
 import { useState } from "react";
