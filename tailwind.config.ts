@@ -10,17 +10,17 @@ module.exports = {
   theme: {
   	extend: {
   		fontFamily: {
-  			inter: ['inter', 'sans-serif']
+  			inter: [
+  				'inter',
+  				'sans-serif'
+  			]
   		},
   		colors: {
-  			night: '#000000',
-  			evening: '#1F1F1F',
+  			black: '#000000',
   			marble: '#CFC6BB',
-			grey: '#3C3C3C',
-			
-  			gold: '#FFA500',
-  			silver: '#808080',
-
+  			grey: '#3C3C3C',
+  			green: '#008000',
+  			white: '#FFFFFF',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -88,6 +88,7 @@ module.exports = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}
-      }
-    },
+  	}
+  },
+    plugins: [require("tailwindcss-animate")]
 }

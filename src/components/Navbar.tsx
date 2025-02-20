@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="fixed top-0 flex justify-between items-center w-full p-3 md:p-5 text-roundhouse-white z-20">
-      <Image src="/logo.svg" alt="Objectives" width={200} height={200} />     
-      <div className="flex items-center space-x-2 md:space-x-4 ">
-      </div>
+    <div className="fixed flex items-center top-0 left-0 gap-6 p-6">
+        <Image src="/logo.png" alt="Objectives" width={100} height={100} />
+        <h1 className="text-xl font-medium">Objectives.</h1>
+        <span className="text-sm text-grey">v0.5.0 free public demo</span>
     </div>
   );
 }

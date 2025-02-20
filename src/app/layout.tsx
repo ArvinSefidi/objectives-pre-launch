@@ -1,17 +1,15 @@
-import React from 'react';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import '@/styles/globals.css';
+import type React from "react"
+import { Inter } from "next/font/google"
+import "./globals.css"
+import { Metadata } from "next";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-night text-marble`}>
-          {children}
-      </body>
+    <html lang="en" className="dark">
+      <body className={`${inter.variable} font-inter bg-black min-h-screen`}>{children}</body>
     </html>
   );
 };
@@ -39,5 +37,5 @@ export const metadata: Metadata = {
     ],
   },
 };
-
 export default RootLayout;
+
