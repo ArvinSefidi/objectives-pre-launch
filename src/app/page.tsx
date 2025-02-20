@@ -55,12 +55,12 @@ export default function Page() {
             </div>
             <div className="align-left">
               <h2 className="text-5xl">
-                what you don't know
+                what you don&apos;t know
                 <br />
                 can hurt you.
               </h2>
               <p className="text-grey text-xl mb-4">
-                Traditional testing can't account for unknown edge cases.
+                Traditional testing can&apos;t account for unknown edge cases.
                 Trivial bugs slip through the cracks along with your
                 conversions.
               </p>
@@ -89,7 +89,7 @@ export default function Page() {
               </h2>
               <p className="text-grey text-lg">
                 Using Objectives, you can ship the best version feeling
-                confident that you're not breaking things.
+                confident that you&apos;re not breaking things.
               </p>
             </div>
           </div>
