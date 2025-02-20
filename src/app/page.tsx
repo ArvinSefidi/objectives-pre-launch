@@ -30,15 +30,12 @@ export default function Home() {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <div className="min-h-screen flex flex-col items-center w-full h-full text-left justify-evenly p-8 sm:p-20">
+    <div className="min-h-screen flex flex-col items-center w-full h-full text-center justify-evenly p-8 sm:p-20">
       {/* Hero Section */}
       <Navbar/>
       <h1 className="h1 mb-4">
-        Make Startup Management Simple.
+        never ship a bug again.
         </h1>
-        <p className="h4 w-1/2 mb-8">
-          Objectives helps you break down objectives into issues, manage docs, dependencies, and deadlines.
-        </p>
         <Button
           onClick={openModal}
           className="bg-dark-blue text-white h2 transition-all duration-300"

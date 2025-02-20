@@ -13,14 +13,14 @@ module.exports = {
   			inter: ['inter', 'sans-serif']
   		},
   		colors: {
-  			night: '#101010',
+  			night: '#000000',
   			evening: '#1F1F1F',
-  			marble: '#F8DFCD',
+  			marble: '#CFC6BB',
+			grey: '#3C3C3C',
+			
   			gold: '#FFA500',
   			silver: '#808080',
-  			'dark-blue': '#171F40',
-  			'medium-blue': '#003258',
-  			'light-blue': '#003883',
+
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
