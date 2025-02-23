@@ -19,8 +19,9 @@ module.exports = {
   			black: '#000000',
   			marble: '#CFC6BB',
   			grey: '#3C3C3C',
-  			green: '#008000',
   			white: '#FFFFFF',
+			gold: '#DEA669',
+
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -60,24 +61,6 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
-  		},
-  		keyframes: {
-  			typing: {
-  				from: {
-  					width: '0'
-  				},
-  				to: {
-  					width: '100%'
-  				}
-  			},
-  			blink: {
-  				'0%, 100%': {
-  					borderColor: 'transparent'
-  				},
-  				'50%': {
-  					borderColor: 'black'
-  				}
   			}
   		},
   		animation: {
